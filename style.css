@@ -1,0 +1,38 @@
+body{
+    margin:0px;
+    padding:0px;
+    background: url('img/clothe.jpg');
+}
+.left img{
+    position: absolute;
+    margin:0px 15px;
+    padding:0px 0px;
+    top:3%;
+    width:18%;
+    filter:invert(60%);
+}
+
+.navbar{
+    display:inline-block;
+
+  }
+  .navbar li{
+      display:inline-block;
+      font-size: 20px;
+  }
+  .navbar li a{
+      color: white;
+      text-decoration: none;
+      padding:34px 23px;
+  }
+.navbar li a:hover,.navbar li a:active{
+  text-decoration: underline;
+  color: rgb(151, 148, 148);
+}
+
+.mid{
+    display:block;
+    width:40%;
+    margin:12px auto;
+  
+}

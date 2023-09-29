@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Udayraj clothes </title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+</head>
+    <style>
+        body{
+            color:white;
+            margin:0px;
+            padding:0px;
+            background: url('img/black.jpg.jpg');
+        }
+        .left{
+            position:absolute;
+            margin:0px auto;
+            left:15px;
+            top:4%;
+            width: 25%;
+            display:inline-block;
+            font-size: 20px;
+            
+
+        }
+
+        .mid{
+            display:block;
+            width:40%;
+            margin:12px auto;
+          
+        }
+
+        .right{
+            position:absolute;
+            display:inline-block;
+            right:25px;
+            top:2%;
+            margin:20px;
+            width:100px;
+            font-size:20px;
+        }
+        .navbar{
+          display:inline-block;
+
+        }
+        .navbar li{
+            display:inline-block;
+            font-size: 20px;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding:34px 23px;
+        }
+    .navbar li a:hover,.navbar li a:active{
+        text-decoration: underline;
+        color: rgb(151, 148, 148);
+    }
+    .btn{
+        margin:0px;
+        padding: 4px 11px;
+        font-size: 10px;
+        color: white;
+        /* border-radius: 10px; */
+        cursor: pointer;
+        background-color: black;
+        font-family: sans-serif;
+        font-size: 16px;
+    }
+    .btn:hover{
+        background-color:gray ;
+
+    }
+    .container{
+        border:2px solid white;
+        border-radius:10px;
+        margin:158px 880px;
+        padding:36px 20px;
+        width:30%;
+        text-align: center;
+    }
+    .input{
+     color: black ;
+     margin-bottom: 10px;
+     margin: 5px 0px;
+     padding:3px 50px;
+    }
+    .label{
+    font-family: sans-serif;
+    }
+    .left img{
+        width:80%;
+        filter:invert(60%);
+    }
+    /* .socialicons{
+        display:block;
+        right: 20px;
+        background-color: white;
+        width:30%;
+        border:2px solid green;
+        margin:0px;
+        padding:0px;
+        
+    } */
+
+    </style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/PngItem_5122611.png">
+        </div>
+        <div class="mid">
+                <ul class="navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="/AboutUs.html"> About Us</a></li>  <!--linking about us html file here -->
+                    <li><a href="/ContactUs.html"> Contact Us</a></li>
+                    <li><a href="/Feedback.html">Feedback</a></li>
+                </ul>
+        </div>
+        <div class="right">
+             <button class="btn">email</button>
+             <button class="btn">click</button>
+        </div>
+    </header>
+      
+    
+
+    <div class="container">
+        <h1>Join for new updates</h1>
+        <form action="noaction.php" method="get">
+               <label class="label">Name</label><br />
+               <input type="text" placeholder="Enter your name" class="input"><br/>
+                <label class="label">Age</label><br />
+                <input type="age" name="age" placeholder="Enter your age" value="" class="input" ><br/>
+                <label class="label">Gender</label><br />
+                <input type="text" name="gender" placeholder="Enter your gender" class="input"><br/>
+                <label class="label">Contact</label><br />
+                <input type="number" name="Contact" placeholder="Enter your phone number" class="input"><br/><br/>
+
+    
+            <button class="btn">
+                submit
+            </button>
+           </div>
+        </form>
+        
+
+    <!-- </div>
+    <div class="footercontainer">
+        <div class="socialicons">
+            <a href=""><i class="fa-brand fa-facebook"></i></a>
+            <a href=""><i class="fa-brand fa-instagram"></i></a>
+            <a href=""><i class="fa-brand fa-twiter"></i></a>
+            <a href=""><i class="fa-brand fa-youtube"></i></a>
+        </div>
+    </div> -->
+
+</body>
+</html>
